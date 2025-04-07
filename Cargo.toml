@@ -1,0 +1,20 @@
+[package]
+name = "wallace_rs"
+version = "0.1.0"
+edition = "2021"
+default-run = "wallace_rs"
+
+[dependencies]
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+csv = "1.1"
+clap = "2.33"
+byteorder = "1.5"
+bzip2 = "0.4"
+
+[[bin]]
+name = "binary_analyzer"
+path = "src/bin/binary_analyzer.rs"
+
+
