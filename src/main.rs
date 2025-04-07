@@ -1,6 +1,7 @@
 mod file_io;
 mod parser;
 mod utils;
+use std::io::Write;
 mod messages {
     pub mod registry;
     pub use registry::{load_message_registry, FieldDef, MessageDef, MessageRegistry};
@@ -19,9 +20,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let registry = load_message_registry(json_registry_path)?;
     let mut reader = open_file(dat_file_path)?;
 
-    let all_messages = extract_messages(&mut reader, &registry)?;
+    let (all_messages, warnings, skipped_fields) = extract_messages(&mut reader, &registry)?;
 
-    let grouped = group_by_type(all_messages);
+    let grouped = group_by_type(&all_messages);
 
     let output_dir = Path::new("output");
     if !output_dir.exists() {
@@ -33,7 +34,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         export_to_csv(file_path.to_str().unwrap(), group)?;
     }
 
-
-    println!("✅ Exported {} message types to CSV.", grouped.len());
+    if !warnings.is_empty() {
+        let mut log_file = std::fs::File::create("output/warnings.log")?;
+        for line in &warnings {
+            writeln!(log_file, "{}", line)?;
+        }
+        println!("⚠️  Wrote {} warnings to output/warnings.log", warnings.len());
+    }
+    if skipped_fields > 0 {
+        println!("⏭️  Skipped {} ignorable fields like TRASH, PADDING, RESERVED", skipped_fields);
+    }
+    
     Ok(())
 }
