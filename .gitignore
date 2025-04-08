@@ -2,5 +2,3 @@
 **/*.log
 **/*.csv
 /output/
-/example.dat
-messages.json

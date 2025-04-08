@@ -30,7 +30,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     for (name, group) in &grouped {
-        let file_path = output_dir.join(format!("{}.csv", name));
+        let file_path = output_dir.join(format!("{}.txt", name));
         export_to_csv(file_path.to_str().unwrap(), group)?;
     }
 

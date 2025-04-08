@@ -1,0 +1,6206 @@
+{
+    "791": {
+        "name": "BackupBatteryState",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Voltage",
+                "type": "f"
+            },
+            {
+                "name": "Current",
+                "type": "f"
+            },
+            {
+                "name": "Batt_Temperature",
+                "type": "f"
+            },
+            {
+                "name": "Chip_Temperature",
+                "type": "f"
+            },
+            {
+                "name": "Full_Cap",
+                "type": "I"
+            },
+            {
+                "name": "Remaining_Cap",
+                "type": "B"
+            },
+            {
+                "name": "Rem_Flight_Min",
+                "type": "B"
+            },
+            {
+                "name": "Battery_State",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "646": {
+        "name": "BinaryAccel",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "h"
+            },
+            {
+                "name": "y",
+                "type": "h"
+            },
+            {
+                "name": "z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            }
+        ]
+    },
+    "642": {
+        "name": "BinaryAccelRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "h"
+            },
+            {
+                "name": "y",
+                "type": "h"
+            },
+            {
+                "name": "z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            }
+        ]
+    },
+    "645": {
+        "name": "BinaryGyro",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "h"
+            },
+            {
+                "name": "y",
+                "type": "h"
+            },
+            {
+                "name": "z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature_Gyro",
+                "type": "h"
+            }
+        ]
+    },
+    "641": {
+        "name": "BinaryGyroRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "h"
+            },
+            {
+                "name": "y",
+                "type": "h"
+            },
+            {
+                "name": "z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature_Gyro",
+                "type": "h"
+            }
+        ]
+    },
+    "649": {
+        "name": "BinaryIMU",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Accel_x",
+                "type": "h"
+            },
+            {
+                "name": "Accel_y",
+                "type": "h"
+            },
+            {
+                "name": "Accel_z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "Gyro_x",
+                "type": "h"
+            },
+            {
+                "name": "Gyro_y",
+                "type": "h"
+            },
+            {
+                "name": "Gyro_z",
+                "type": "h"
+            }
+        ]
+    },
+    "643": {
+        "name": "BinaryIMURedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Accel_x",
+                "type": "h"
+            },
+            {
+                "name": "Accel_y",
+                "type": "h"
+            },
+            {
+                "name": "Accel_z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "Gyro_x",
+                "type": "h"
+            },
+            {
+                "name": "Gyro_y",
+                "type": "h"
+            },
+            {
+                "name": "Gyro_z",
+                "type": "h"
+            }
+        ]
+    },
+    "648": {
+        "name": "BinaryMagnetometer",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Mag_x",
+                "type": "h"
+            },
+            {
+                "name": "Mag_y",
+                "type": "h"
+            },
+            {
+                "name": "Mag_z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "inverse_scale",
+                "type": "h"
+            }
+        ]
+    },
+    "647": {
+        "name": "BinaryMagnetometerOnboard",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Mag_x",
+                "type": "h"
+            },
+            {
+                "name": "Mag_y",
+                "type": "h"
+            },
+            {
+                "name": "Mag_z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "inverse_scale",
+                "type": "h"
+            }
+        ]
+    },
+    "644": {
+        "name": "BinaryMagnetometerRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Mag_x",
+                "type": "h"
+            },
+            {
+                "name": "Mag_y",
+                "type": "h"
+            },
+            {
+                "name": "Mag_z",
+                "type": "h"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "inverse_scale",
+                "type": "h"
+            }
+        ]
+    },
+    "1027": {
+        "name": "BoardSerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1032": {
+        "name": "CloseTimestamp",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            }
+        ]
+    },
+    "818": {
+        "name": "CommStats",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "successful_packets",
+                "type": "I"
+            },
+            {
+                "name": "dropped_packets",
+                "type": "I"
+            },
+            {
+                "name": "total_bytes",
+                "type": "I"
+            },
+            {
+                "name": "total_dropped_bytes",
+                "type": "I"
+            },
+            {
+                "name": "self_check_flags_lower",
+                "type": "I"
+            },
+            {
+                "name": "type",
+                "type": "B"
+            },
+            {
+                "name": "rssi",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BB"
+            }
+        ]
+    },
+    "3840": {
+        "name": "FCOCoreDump",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1044": {
+        "name": "CpuTaskInfo",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Total_User_Time",
+                "type": "Q"
+            },
+            {
+                "name": "Idle",
+                "type": "f"
+            },
+            {
+                "name": "Load",
+                "type": "f"
+            },
+            {
+                "name": "Total_Count",
+                "type": "i"
+            },
+            {
+                "name": "Running_Count",
+                "type": "i"
+            },
+            {
+                "name": "Blocked_Count",
+                "type": "i"
+            },
+            {
+                "name": "Mem_Used",
+                "type": "i"
+            },
+            {
+                "name": "Mem_Free",
+                "type": "i"
+            },
+            {
+                "name": "Interval_Time",
+                "type": "i"
+            },
+            {
+                "name": "New_Time",
+                "type": "Q"
+            },
+            {
+                "name": "Interval_Start_Time",
+                "type": "Q"
+            },
+            {
+                "name": "Valid_0",
+                "type": "i"
+            },
+            {
+                "name": "Valid_1",
+                "type": "i"
+            },
+            {
+                "name": "Valid_2",
+                "type": "i"
+            },
+            {
+                "name": "Valid_3",
+                "type": "i"
+            },
+            {
+                "name": "Valid_4",
+                "type": "i"
+            },
+            {
+                "name": "Valid_5",
+                "type": "i"
+            },
+            {
+                "name": "Valid_6",
+                "type": "i"
+            },
+            {
+                "name": "Valid_7",
+                "type": "i"
+            },
+            {
+                "name": "Valid_8",
+                "type": "i"
+            },
+            {
+                "name": "Valid_9",
+                "type": "i"
+            },
+            {
+                "name": "Valid_10",
+                "type": "i"
+            },
+            {
+                "name": "Valid_11",
+                "type": "i"
+            },
+            {
+                "name": "Valid_12",
+                "type": "i"
+            },
+            {
+                "name": "Valid_13",
+                "type": "i"
+            },
+            {
+                "name": "Valid_14",
+                "type": "i"
+            },
+            {
+                "name": "Valid_15",
+                "type": "i"
+            },
+            {
+                "name": "Valid_16",
+                "type": "i"
+            },
+            {
+                "name": "Valid_17",
+                "type": "i"
+            },
+            {
+                "name": "Valid_18",
+                "type": "i"
+            },
+            {
+                "name": "Valid_19",
+                "type": "i"
+            },
+            {
+                "name": "Valid_20",
+                "type": "i"
+            },
+            {
+                "name": "Valid_21",
+                "type": "i"
+            },
+            {
+                "name": "Valid_22",
+                "type": "i"
+            },
+            {
+                "name": "Valid_23",
+                "type": "i"
+            },
+            {
+                "name": "Valid_24",
+                "type": "i"
+            },
+            {
+                "name": "Valid_25",
+                "type": "i"
+            },
+            {
+                "name": "Valid_26",
+                "type": "i"
+            },
+            {
+                "name": "Valid_27",
+                "type": "i"
+            },
+            {
+                "name": "Valid_28",
+                "type": "i"
+            },
+            {
+                "name": "Valid_29",
+                "type": "i"
+            },
+            {
+                "name": "Valid_30",
+                "type": "i"
+            },
+            {
+                "name": "Valid_31",
+                "type": "i"
+            },
+            {
+                "name": "Last_Times_0",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_1",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_2",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_3",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_4",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_5",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_6",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_7",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_8",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_9",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_10",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_11",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_12",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_13",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_14",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_15",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_16",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_17",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_18",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_19",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_20",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_21",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_22",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_23",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_24",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_25",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_26",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_27",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_28",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_29",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_30",
+                "type": "Q"
+            },
+            {
+                "name": "Last_Times_31",
+                "type": "Q"
+            },
+            {
+                "name": "Curr_Loads_0",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_1",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_2",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_3",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_4",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_5",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_6",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_7",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_8",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_9",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_10",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_11",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_12",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_13",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_14",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_15",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_16",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_17",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_18",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_19",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_20",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_21",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_22",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_23",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_24",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_25",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_26",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_27",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_28",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_29",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_30",
+                "type": "f"
+            },
+            {
+                "name": "Curr_Loads_31",
+                "type": "f"
+            },
+            {
+                "name": "Stack_Size_0",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_1",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_2",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_3",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_4",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_5",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_6",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_7",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_8",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_9",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_10",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_11",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_12",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_13",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_14",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_15",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_16",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_17",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_18",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_19",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_20",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_21",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_22",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_23",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_24",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_25",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_26",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_27",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_28",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_29",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_30",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Size_31",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_0",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_1",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_2",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_3",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_4",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_5",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_6",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_7",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_8",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_9",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_10",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_11",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_12",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_13",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_14",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_15",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_16",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_17",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_18",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_19",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_20",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_21",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_22",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_23",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_24",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_25",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_26",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_27",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_28",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_29",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_30",
+                "type": "i"
+            },
+            {
+                "name": "Stack_Free_31",
+                "type": "i"
+            },
+            {
+                "name": "Pid_0",
+                "type": "i"
+            },
+            {
+                "name": "Pid_1",
+                "type": "i"
+            },
+            {
+                "name": "Pid_2",
+                "type": "i"
+            },
+            {
+                "name": "Pid_3",
+                "type": "i"
+            },
+            {
+                "name": "Pid_4",
+                "type": "i"
+            },
+            {
+                "name": "Pid_5",
+                "type": "i"
+            },
+            {
+                "name": "Pid_6",
+                "type": "i"
+            },
+            {
+                "name": "Pid_7",
+                "type": "i"
+            },
+            {
+                "name": "Pid_8",
+                "type": "i"
+            },
+            {
+                "name": "Pid_9",
+                "type": "i"
+            },
+            {
+                "name": "Pid_10",
+                "type": "i"
+            },
+            {
+                "name": "Pid_11",
+                "type": "i"
+            },
+            {
+                "name": "Pid_12",
+                "type": "i"
+            },
+            {
+                "name": "Pid_13",
+                "type": "i"
+            },
+            {
+                "name": "Pid_14",
+                "type": "i"
+            },
+            {
+                "name": "Pid_15",
+                "type": "i"
+            },
+            {
+                "name": "Pid_16",
+                "type": "i"
+            },
+            {
+                "name": "Pid_17",
+                "type": "i"
+            },
+            {
+                "name": "Pid_18",
+                "type": "i"
+            },
+            {
+                "name": "Pid_19",
+                "type": "i"
+            },
+            {
+                "name": "Pid_20",
+                "type": "i"
+            },
+            {
+                "name": "Pid_21",
+                "type": "i"
+            },
+            {
+                "name": "Pid_22",
+                "type": "i"
+            },
+            {
+                "name": "Pid_23",
+                "type": "i"
+            },
+            {
+                "name": "Pid_24",
+                "type": "i"
+            },
+            {
+                "name": "Pid_25",
+                "type": "i"
+            },
+            {
+                "name": "Pid_26",
+                "type": "i"
+            },
+            {
+                "name": "Pid_27",
+                "type": "i"
+            },
+            {
+                "name": "Pid_28",
+                "type": "i"
+            },
+            {
+                "name": "Pid_29",
+                "type": "i"
+            },
+            {
+                "name": "Pid_30",
+                "type": "i"
+            },
+            {
+                "name": "Pid_31",
+                "type": "i"
+            },
+            {
+                "name": "State_0",
+                "type": "i"
+            },
+            {
+                "name": "State_1",
+                "type": "i"
+            },
+            {
+                "name": "State_2",
+                "type": "i"
+            },
+            {
+                "name": "State_3",
+                "type": "i"
+            },
+            {
+                "name": "State_4",
+                "type": "i"
+            },
+            {
+                "name": "State_5",
+                "type": "i"
+            },
+            {
+                "name": "State_6",
+                "type": "i"
+            },
+            {
+                "name": "State_7",
+                "type": "i"
+            },
+            {
+                "name": "State_8",
+                "type": "i"
+            },
+            {
+                "name": "State_9",
+                "type": "i"
+            },
+            {
+                "name": "State_10",
+                "type": "i"
+            },
+            {
+                "name": "State_11",
+                "type": "i"
+            },
+            {
+                "name": "State_12",
+                "type": "i"
+            },
+            {
+                "name": "State_13",
+                "type": "i"
+            },
+            {
+                "name": "State_14",
+                "type": "i"
+            },
+            {
+                "name": "State_15",
+                "type": "i"
+            },
+            {
+                "name": "State_16",
+                "type": "i"
+            },
+            {
+                "name": "State_17",
+                "type": "i"
+            },
+            {
+                "name": "State_18",
+                "type": "i"
+            },
+            {
+                "name": "State_19",
+                "type": "i"
+            },
+            {
+                "name": "State_20",
+                "type": "i"
+            },
+            {
+                "name": "State_21",
+                "type": "i"
+            },
+            {
+                "name": "State_22",
+                "type": "i"
+            },
+            {
+                "name": "State_23",
+                "type": "i"
+            },
+            {
+                "name": "State_24",
+                "type": "i"
+            },
+            {
+                "name": "State_25",
+                "type": "i"
+            },
+            {
+                "name": "State_26",
+                "type": "i"
+            },
+            {
+                "name": "State_27",
+                "type": "i"
+            },
+            {
+                "name": "State_28",
+                "type": "i"
+            },
+            {
+                "name": "State_29",
+                "type": "i"
+            },
+            {
+                "name": "State_30",
+                "type": "i"
+            },
+            {
+                "name": "State_31",
+                "type": "i"
+            },
+            {
+                "name": "NAMES_0",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_1",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_2",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_3",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_4",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_5",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_6",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_7",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_8",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_9",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_10",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_11",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_12",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_13",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_14",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_15",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_16",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_17",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_18",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_19",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_20",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_21",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_22",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_23",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_24",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_25",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_26",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_27",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_28",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_29",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_30",
+                "type": "cccccccccccccccccccccccc"
+            },
+            {
+                "name": "NAMES_31",
+                "type": "cccccccccccccccccccccccc"
+            }
+        ]
+    },
+    "1072": {
+        "name": "ESC0SerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1073": {
+        "name": "ESC1SerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1074": {
+        "name": "ESC2SerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1075": {
+        "name": "ESC3SerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1076": {
+        "name": "ESC4SerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1077": {
+        "name": "ESC5SerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "834": {
+        "name": "ESCCommands",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "motor_0",
+                "type": "h"
+            },
+            {
+                "name": "motor_1",
+                "type": "h"
+            },
+            {
+                "name": "motor_2",
+                "type": "h"
+            },
+            {
+                "name": "motor_3",
+                "type": "h"
+            },
+            {
+                "name": "motor_4",
+                "type": "h"
+            },
+            {
+                "name": "motor_5",
+                "type": "h"
+            },
+            {
+                "name": "motor_6",
+                "type": "h"
+            },
+            {
+                "name": "motor_7",
+                "type": "h"
+            },
+            {
+                "name": "nr_motors",
+                "type": "B"
+            },
+            {
+                "name": "armed",
+                "type": "B"
+            },
+            {
+                "name": "additional_info",
+                "type": "BBBBBB"
+            }
+        ]
+    },
+    "825": {
+        "name": "ESCCommandsFCR",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "FCR_can_id",
+                "type": "H"
+            },
+            {
+                "name": "motor_0",
+                "type": "h"
+            },
+            {
+                "name": "motor_1",
+                "type": "h"
+            },
+            {
+                "name": "motor_2",
+                "type": "h"
+            },
+            {
+                "name": "motor_3",
+                "type": "h"
+            },
+            {
+                "name": "motor_4",
+                "type": "h"
+            },
+            {
+                "name": "motor_5",
+                "type": "h"
+            },
+            {
+                "name": "motor_6",
+                "type": "h"
+            },
+            {
+                "name": "motor_7",
+                "type": "h"
+            },
+            {
+                "name": "nr_motors",
+                "type": "B"
+            },
+            {
+                "name": "armed",
+                "type": "B"
+            },
+            {
+                "name": "additional_info",
+                "type": "BBBBBB"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBB"
+            }
+        ]
+    },
+    "840": {
+        "name": "ESCControlState",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "state",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBBB"
+            }
+        ]
+    },
+    "841": {
+        "name": "ESCControlStateRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "state",
+                "type": "B"
+            },
+            {
+                "name": "high_control_mode",
+                "type": "B"
+            },
+            {
+                "name": "onboard_logic_global_flags",
+                "type": "H"
+            },
+            {
+                "name": "self_check_flags_lower",
+                "type": "I"
+            }
+        ]
+    },
+    "838": {
+        "name": "ESCFailure",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "threshold",
+                "type": "f"
+            },
+            {
+                "name": "motor_0",
+                "type": "f"
+            },
+            {
+                "name": "motor_1",
+                "type": "f"
+            },
+            {
+                "name": "motor_2",
+                "type": "f"
+            },
+            {
+                "name": "motor_3",
+                "type": "f"
+            },
+            {
+                "name": "motor_4",
+                "type": "f"
+            },
+            {
+                "name": "motor_5",
+                "type": "f"
+            },
+            {
+                "name": "motor_failed",
+                "type": "b"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBB"
+            }
+        ]
+    },
+    "835": {
+        "name": "ESCFeedback",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "erroctr_0",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_1",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_2",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_3",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_4",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_5",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_6",
+                "type": "I"
+            },
+            {
+                "name": "erroctr_7",
+                "type": "I"
+            },
+            {
+                "name": "current_0",
+                "type": "B"
+            },
+            {
+                "name": "current_1",
+                "type": "B"
+            },
+            {
+                "name": "current_2",
+                "type": "B"
+            },
+            {
+                "name": "current_3",
+                "type": "B"
+            },
+            {
+                "name": "current_4",
+                "type": "B"
+            },
+            {
+                "name": "current_5",
+                "type": "B"
+            },
+            {
+                "name": "current_6",
+                "type": "B"
+            },
+            {
+                "name": "current_7",
+                "type": "B"
+            },
+            {
+                "name": "voltage_0",
+                "type": "B"
+            },
+            {
+                "name": "voltage_1",
+                "type": "B"
+            },
+            {
+                "name": "voltage_2",
+                "type": "B"
+            },
+            {
+                "name": "voltage_3",
+                "type": "B"
+            },
+            {
+                "name": "voltage_4",
+                "type": "B"
+            },
+            {
+                "name": "voltage_5",
+                "type": "B"
+            },
+            {
+                "name": "voltage_6",
+                "type": "B"
+            },
+            {
+                "name": "voltage_7",
+                "type": "B"
+            },
+            {
+                "name": "rpm_0",
+                "type": "b"
+            },
+            {
+                "name": "rpm_1",
+                "type": "b"
+            },
+            {
+                "name": "rpm_2",
+                "type": "b"
+            },
+            {
+                "name": "rpm_3",
+                "type": "b"
+            },
+            {
+                "name": "rpm_4",
+                "type": "b"
+            },
+            {
+                "name": "rpm_5",
+                "type": "b"
+            },
+            {
+                "name": "rpm_6",
+                "type": "b"
+            },
+            {
+                "name": "rpm_7",
+                "type": "b"
+            },
+            {
+                "name": "fbctr_0",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_1",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_2",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_3",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_4",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_5",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_6",
+                "type": "B"
+            },
+            {
+                "name": "fbctr_7",
+                "type": "B"
+            },
+            {
+                "name": "temperature_0",
+                "type": "B"
+            },
+            {
+                "name": "temperature_1",
+                "type": "B"
+            },
+            {
+                "name": "temperature_2",
+                "type": "B"
+            },
+            {
+                "name": "temperature_3",
+                "type": "B"
+            },
+            {
+                "name": "temperature_4",
+                "type": "B"
+            },
+            {
+                "name": "temperature_5",
+                "type": "B"
+            },
+            {
+                "name": "temperature_6",
+                "type": "B"
+            },
+            {
+                "name": "temperature_7",
+                "type": "B"
+            },
+            {
+                "name": "index_0",
+                "type": "B"
+            },
+            {
+                "name": "index_1",
+                "type": "B"
+            },
+            {
+                "name": "index_2",
+                "type": "B"
+            },
+            {
+                "name": "index_3",
+                "type": "B"
+            },
+            {
+                "name": "index_4",
+                "type": "B"
+            },
+            {
+                "name": "index_5",
+                "type": "B"
+            },
+            {
+                "name": "configuration_confirmed_bitmap",
+                "type": "B"
+            },
+            {
+                "name": "configuration_at_startup_wrong_bitmap",
+                "type": "B"
+            },
+            {
+                "name": "nr_motors",
+                "type": "B"
+            },
+            {
+                "name": "uptime_ctr_0",
+                "type": "B"
+            },
+            {
+                "name": "uptime_ctr_1",
+                "type": "B"
+            },
+            {
+                "name": "uptime_ctr_2",
+                "type": "B"
+            },
+            {
+                "name": "uptime_ctr_3",
+                "type": "B"
+            },
+            {
+                "name": "uptime_ctr_4",
+                "type": "B"
+            },
+            {
+                "name": "uptime_ctr_5",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "-1": {
+        "name": "ESCSerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "512": {
+        "name": "EmergencyLandCommand",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "sequence_num",
+                "type": "B"
+            },
+            {
+                "name": "button_ctr",
+                "type": "B"
+            },
+            {
+                "name": "options",
+                "type": "I"
+            },
+            {
+                "name": "options2",
+                "type": "H"
+            }
+        ]
+    },
+    "1056": {
+        "name": "FCRBoardSerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "3856": {
+        "name": "FCRCoreDump",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1046": {
+        "name": "FPCMonitor",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "FPC_counter",
+                "type": "I"
+            },
+            {
+                "name": "FPC_flags",
+                "type": "I"
+            }
+        ]
+    },
+    "839": {
+        "name": "FPCStatus",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "batt_voltage",
+                "type": "f"
+            },
+            {
+                "name": "led_off",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBB"
+            },
+            {
+                "name": "tether_voltage",
+                "type": "f"
+            },
+            {
+                "name": "temp_int",
+                "type": "h"
+            },
+            {
+                "name": "temp_top",
+                "type": "h"
+            },
+            {
+                "name": "temp_bot",
+                "type": "h"
+            },
+            {
+                "name": "batt_en",
+                "type": "B"
+            },
+            {
+                "name": "dcdc_valid",
+                "type": "B"
+            },
+            {
+                "name": "batt_valid",
+                "type": "B"
+            },
+            {
+                "name": "vicor_en",
+                "type": "B"
+            },
+            {
+                "name": "vicor_fault",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "633": {
+        "name": "FilteredAccel",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "h"
+            }
+        ]
+    },
+    "663": {
+        "name": "FilteredAccelRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "Temperature",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "h"
+            }
+        ]
+    },
+    "632": {
+        "name": "FilteredGyro",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "Temperature_Gyro",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "h"
+            }
+        ]
+    },
+    "662": {
+        "name": "FilteredGyroRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "Temperature_Gyro",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "h"
+            }
+        ]
+    },
+    "1026": {
+        "name": "FlightTime",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "848": {
+        "name": "FotokiteCommand",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Sequence_Num",
+                "type": "B"
+            },
+            {
+                "name": "Cmd_Type",
+                "type": "B"
+            },
+            {
+                "name": "Cmd_Options",
+                "type": "H"
+            },
+            {
+                "name": "Data_0",
+                "type": "f"
+            },
+            {
+                "name": "Data_1",
+                "type": "f"
+            },
+            {
+                "name": "Data_2",
+                "type": "f"
+            },
+            {
+                "name": "Data_3",
+                "type": "f"
+            },
+            {
+                "name": "Data_4",
+                "type": "f"
+            },
+            {
+                "name": "Data_5",
+                "type": "f"
+            }
+        ]
+    },
+    "853": {
+        "name": "FotokitePingPacket",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Timestamp_gmc",
+                "type": "Q"
+            },
+            {
+                "name": "delay",
+                "type": "Q"
+            },
+            {
+                "name": "seq_num_fco",
+                "type": "H"
+            },
+            {
+                "name": "seq_num_gmc",
+                "type": "H"
+            },
+            {
+                "name": "seq_num_packet",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBB"
+            }
+        ]
+    },
+    "854": {
+        "name": "FotokitePingPacketRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Timestamp_fcr",
+                "type": "Q"
+            },
+            {
+                "name": "delay",
+                "type": "Q"
+            },
+            {
+                "name": "seq_num_fco",
+                "type": "H"
+            },
+            {
+                "name": "seq_num_fcr",
+                "type": "H"
+            },
+            {
+                "name": "seq_num_packet",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBB"
+            }
+        ]
+    },
+    "1040": {
+        "name": "FwVer",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "git_hash",
+                "type": "Q"
+            },
+            {
+                "name": "type",
+                "type": "B"
+            },
+            {
+                "name": "version_major",
+                "type": "B"
+            },
+            {
+                "name": "version_minor",
+                "type": "B"
+            },
+            {
+                "name": "in_bootloader",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "822": {
+        "name": "GACStatus",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "gac_temp_top",
+                "type": "h"
+            },
+            {
+                "name": "gac_temp_internal",
+                "type": "h"
+            },
+            {
+                "name": "gac_i_tether",
+                "type": "H"
+            },
+            {
+                "name": "gac_400v_cosel",
+                "type": "H"
+            },
+            {
+                "name": "gac_400v_tether",
+                "type": "H"
+            },
+            {
+                "name": "gac_v_vehicle_detect",
+                "type": "H"
+            },
+            {
+                "name": "gac_out_en_state",
+                "type": "B"
+            },
+            {
+                "name": "gac_degredation_mode",
+                "type": "B"
+            },
+            {
+                "name": "gac_mode",
+                "type": "B"
+            },
+            {
+                "name": "gac_mode_vehicle_detect",
+                "type": "B"
+            },
+            {
+                "name": "gac_is_valid",
+                "type": "B"
+            },
+            {
+                "name": "gac_board_revision",
+                "type": "B"
+            },
+            {
+                "name": "ac_utility_decav",
+                "type": "B"
+            },
+            {
+                "name": "ac_utility_hz",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "823": {
+        "name": "GDCStatus",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "gdc1_temp_1a_vicor",
+                "type": "h"
+            },
+            {
+                "name": "gdc1_temp_1b",
+                "type": "h"
+            },
+            {
+                "name": "gdc1_temp_internal",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_temp_2a_vicor",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_temp_2b",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_temp_2c_vicor_internal",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_temp_internal",
+                "type": "h"
+            },
+            {
+                "name": "gdc3_temp_3a_recom_bottom",
+                "type": "h"
+            },
+            {
+                "name": "gdc3_temp_3b_recom_middle",
+                "type": "h"
+            },
+            {
+                "name": "gdc3_temp_internal",
+                "type": "h"
+            },
+            {
+                "name": "gdc1_12v_cosel",
+                "type": "H"
+            },
+            {
+                "name": "gdc1_12v_gmc",
+                "type": "H"
+            },
+            {
+                "name": "gdc2_400v_vicor",
+                "type": "H"
+            },
+            {
+                "name": "gdc2_400v_caps",
+                "type": "H"
+            },
+            {
+                "name": "gdc2_400v_tether",
+                "type": "H"
+            },
+            {
+                "name": "gdc2_v_vehicle_detect",
+                "type": "H"
+            },
+            {
+                "name": "gdc2_i_tether",
+                "type": "H"
+            },
+            {
+                "name": "gdc3_v_input",
+                "type": "H"
+            },
+            {
+                "name": "gdc3_48v",
+                "type": "H"
+            },
+            {
+                "name": "gdc3_i_input",
+                "type": "H"
+            },
+            {
+                "name": "gdc2_v_aux_vicor",
+                "type": "B"
+            },
+            {
+                "name": "gdc2_out_en_state",
+                "type": "B"
+            },
+            {
+                "name": "gdc2_degradation_mode",
+                "type": "B"
+            },
+            {
+                "name": "gdc_mode",
+                "type": "B"
+            },
+            {
+                "name": "gdc_mode_vehicle_detect",
+                "type": "B"
+            },
+            {
+                "name": "gdc1_is_valid",
+                "type": "B"
+            },
+            {
+                "name": "gdc2_is_valid",
+                "type": "B"
+            },
+            {
+                "name": "gdc3_is_valid",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBBBB"
+            }
+        ]
+    },
+    "3872": {
+        "name": "GMCCoreDump",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1047": {
+        "name": "GPCMonitor",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "GPC_counter",
+                "type": "I"
+            },
+            {
+                "name": "GPC_flags",
+                "type": "I"
+            }
+        ]
+    },
+    "785": {
+        "name": "GPSData",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "time_utc_usec",
+                "type": "Q"
+            },
+            {
+                "name": "lat",
+                "type": "i"
+            },
+            {
+                "name": "lon",
+                "type": "i"
+            },
+            {
+                "name": "alt",
+                "type": "i"
+            },
+            {
+                "name": "acc_x",
+                "type": "h"
+            },
+            {
+                "name": "acc_y",
+                "type": "h"
+            },
+            {
+                "name": "s_variance_m_s",
+                "type": "f"
+            },
+            {
+                "name": "c_variance_rad",
+                "type": "f"
+            },
+            {
+                "name": "eph_m",
+                "type": "f"
+            },
+            {
+                "name": "epv_m",
+                "type": "f"
+            },
+            {
+                "name": "hdop",
+                "type": "f"
+            },
+            {
+                "name": "vdop",
+                "type": "f"
+            },
+            {
+                "name": "noise_per_ms",
+                "type": "i"
+            },
+            {
+                "name": "jamming",
+                "type": "i"
+            },
+            {
+                "name": "vel_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_n_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_e_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_d_m_s",
+                "type": "f"
+            },
+            {
+                "name": "cog_rad",
+                "type": "f"
+            },
+            {
+                "name": "acc_x_rotated",
+                "type": "h"
+            },
+            {
+                "name": "acc_y_rotated",
+                "type": "h"
+            },
+            {
+                "name": "fix_type",
+                "type": "B"
+            },
+            {
+                "name": "vel_ned_valid",
+                "type": "B"
+            },
+            {
+                "name": "satellites_used",
+                "type": "B"
+            },
+            {
+                "name": "local_pos_x",
+                "type": "h"
+            },
+            {
+                "name": "local_pos_y",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "804": {
+        "name": "GPSDataGroundStation",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "time_utc_usec",
+                "type": "Q"
+            },
+            {
+                "name": "lat",
+                "type": "i"
+            },
+            {
+                "name": "lon",
+                "type": "i"
+            },
+            {
+                "name": "alt",
+                "type": "i"
+            },
+            {
+                "name": "acc_x",
+                "type": "h"
+            },
+            {
+                "name": "acc_y",
+                "type": "h"
+            },
+            {
+                "name": "s_variance_m_s",
+                "type": "f"
+            },
+            {
+                "name": "c_variance_rad",
+                "type": "f"
+            },
+            {
+                "name": "eph_m",
+                "type": "f"
+            },
+            {
+                "name": "epv_m",
+                "type": "f"
+            },
+            {
+                "name": "hdop",
+                "type": "f"
+            },
+            {
+                "name": "vdop",
+                "type": "f"
+            },
+            {
+                "name": "noise_per_ms",
+                "type": "i"
+            },
+            {
+                "name": "jamming",
+                "type": "i"
+            },
+            {
+                "name": "vel_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_n_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_e_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_d_m_s",
+                "type": "f"
+            },
+            {
+                "name": "cog_rad",
+                "type": "f"
+            },
+            {
+                "name": "acc_x_rotated",
+                "type": "h"
+            },
+            {
+                "name": "acc_y_rotated",
+                "type": "h"
+            },
+            {
+                "name": "fix_type",
+                "type": "B"
+            },
+            {
+                "name": "vel_ned_valid",
+                "type": "B"
+            },
+            {
+                "name": "satellites_used",
+                "type": "B"
+            },
+            {
+                "name": "local_pos_x",
+                "type": "h"
+            },
+            {
+                "name": "local_pos_y",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "807": {
+        "name": "GPSDataRoofBox",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "time_utc_usec",
+                "type": "Q"
+            },
+            {
+                "name": "lat",
+                "type": "i"
+            },
+            {
+                "name": "lon",
+                "type": "i"
+            },
+            {
+                "name": "alt",
+                "type": "i"
+            },
+            {
+                "name": "acc_x",
+                "type": "h"
+            },
+            {
+                "name": "acc_y",
+                "type": "h"
+            },
+            {
+                "name": "s_variance_m_s",
+                "type": "f"
+            },
+            {
+                "name": "c_variance_rad",
+                "type": "f"
+            },
+            {
+                "name": "eph_m",
+                "type": "f"
+            },
+            {
+                "name": "epv_m",
+                "type": "f"
+            },
+            {
+                "name": "hdop",
+                "type": "f"
+            },
+            {
+                "name": "vdop",
+                "type": "f"
+            },
+            {
+                "name": "noise_per_ms",
+                "type": "i"
+            },
+            {
+                "name": "jamming",
+                "type": "i"
+            },
+            {
+                "name": "vel_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_n_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_e_m_s",
+                "type": "f"
+            },
+            {
+                "name": "vel_d_m_s",
+                "type": "f"
+            },
+            {
+                "name": "cog_rad",
+                "type": "f"
+            },
+            {
+                "name": "acc_x_rotated",
+                "type": "h"
+            },
+            {
+                "name": "acc_y_rotated",
+                "type": "h"
+            },
+            {
+                "name": "fix_type",
+                "type": "B"
+            },
+            {
+                "name": "vel_ned_valid",
+                "type": "B"
+            },
+            {
+                "name": "satellites_used",
+                "type": "B"
+            },
+            {
+                "name": "local_pos_x",
+                "type": "h"
+            },
+            {
+                "name": "local_pos_y",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "855": {
+        "name": "GSBackupBatteryCellsInfo",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "cell_voltage1",
+                "type": "h"
+            },
+            {
+                "name": "cell_voltage2",
+                "type": "h"
+            },
+            {
+                "name": "cell_voltage3",
+                "type": "h"
+            },
+            {
+                "name": "charging_state",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "1041": {
+        "name": "GSBoardSerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "852": {
+        "name": "GSCommStats",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "successful_packets",
+                "type": "I"
+            },
+            {
+                "name": "dropped_packets",
+                "type": "I"
+            },
+            {
+                "name": "total_bytes",
+                "type": "I"
+            },
+            {
+                "name": "total_dropped_bytes",
+                "type": "I"
+            },
+            {
+                "name": "self_check_flags_lower",
+                "type": "I"
+            },
+            {
+                "name": "type",
+                "type": "B"
+            },
+            {
+                "name": "rssi",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BB"
+            }
+        ]
+    },
+    "816": {
+        "name": "GSInfo",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "motor_position",
+                "type": "q"
+            },
+            {
+                "name": "uptime",
+                "type": "Q"
+            },
+            {
+                "name": "leds_state",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBB"
+            },
+            {
+                "name": "backup_batt_temp",
+                "type": "f"
+            },
+            {
+                "name": "temp_1",
+                "type": "f"
+            },
+            {
+                "name": "temp_2",
+                "type": "f"
+            },
+            {
+                "name": "tether_current",
+                "type": "f"
+            },
+            {
+                "name": "error_state",
+                "type": "H"
+            },
+            {
+                "name": "pb_btn_ctr",
+                "type": "H"
+            },
+            {
+                "name": "bus_mV",
+                "type": "H"
+            },
+            {
+                "name": "backup_batt_mv",
+                "type": "H"
+            },
+            {
+                "name": "ground_station_mode",
+                "type": "B"
+            },
+            {
+                "name": "sequence_number",
+                "type": "B"
+            },
+            {
+                "name": "on_backup_batt",
+                "type": "B"
+            },
+            {
+                "name": "is_spool_brake_on",
+                "type": "B"
+            },
+            {
+                "name": "is_roofbox_open",
+                "type": "B"
+            }
+        ]
+    },
+    "856": {
+        "name": "GUICommand",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "data0",
+                "type": "f"
+            },
+            {
+                "name": "data1",
+                "type": "f"
+            },
+            {
+                "name": "data2",
+                "type": "f"
+            },
+            {
+                "name": "cmd_type",
+                "type": "B"
+            },
+            {
+                "name": "cmd_option",
+                "type": "B"
+            },
+            {
+                "name": "sequence_nr",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "824": {
+        "name": "GimbalCommand",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "data0",
+                "type": "f"
+            },
+            {
+                "name": "data1",
+                "type": "f"
+            },
+            {
+                "name": "data2",
+                "type": "f"
+            },
+            {
+                "name": "cmd",
+                "type": "B"
+            },
+            {
+                "name": "ctr",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BB"
+            }
+        ]
+    },
+    "819": {
+        "name": "GimbalStatus",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "gyro_x",
+                "type": "h"
+            },
+            {
+                "name": "gyro_y",
+                "type": "h"
+            },
+            {
+                "name": "gyro_z",
+                "type": "h"
+            },
+            {
+                "name": "accel_x",
+                "type": "h"
+            },
+            {
+                "name": "accel_y",
+                "type": "h"
+            },
+            {
+                "name": "accel_z",
+                "type": "h"
+            },
+            {
+                "name": "roll",
+                "type": "h"
+            },
+            {
+                "name": "pitch",
+                "type": "h"
+            },
+            {
+                "name": "yaw",
+                "type": "h"
+            },
+            {
+                "name": "uart_err_cnt",
+                "type": "h"
+            },
+            {
+                "name": "i2c_err_cnt",
+                "type": "h"
+            },
+            {
+                "name": "system_err",
+                "type": "h"
+            },
+            {
+                "name": "rotor_angle_yaw",
+                "type": "h"
+            },
+            {
+                "name": "gimbal_movement_metric_roll",
+                "type": "h"
+            },
+            {
+                "name": "gimbal_movement_metric_pitch",
+                "type": "h"
+            },
+            {
+                "name": "gimbal_movement_metric_yaw",
+                "type": "h"
+            },
+            {
+                "name": "movement_metric_cnt",
+                "type": "B"
+            },
+            {
+                "name": "payload_type",
+                "type": "b"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBB"
+            }
+        ]
+    },
+    "821": {
+        "name": "GpotStatus",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "GDC3_ADC_INPUT",
+                "type": "i"
+            },
+            {
+                "name": "GDC3_I_IN",
+                "type": "i"
+            },
+            {
+                "name": "gdc2_i_tether",
+                "type": "i"
+            },
+            {
+                "name": "gdc1_t_t1a",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_caps_div",
+                "type": "h"
+            },
+            {
+                "name": "GDC3_T3A",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_t_bcm",
+                "type": "h"
+            },
+            {
+                "name": "gdc1_adc_12v",
+                "type": "h"
+            },
+            {
+                "name": "gdc2_vicor_div",
+                "type": "H"
+            },
+            {
+                "name": "GDC3_ADC_48V",
+                "type": "H"
+            },
+            {
+                "name": "mode",
+                "type": "B"
+            },
+            {
+                "name": "gpot1_dcdc1_state",
+                "type": "B"
+            },
+            {
+                "name": "gpot1_dcdc2_state",
+                "type": "B"
+            },
+            {
+                "name": "gpot2_dcdc_state",
+                "type": "B"
+            },
+            {
+                "name": "gpot1_valid",
+                "type": "B"
+            },
+            {
+                "name": "gpot2_valid",
+                "type": "B"
+            }
+        ]
+    },
+    "851": {
+        "name": "GroundStationCommand",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "data0",
+                "type": "f"
+            },
+            {
+                "name": "data1",
+                "type": "f"
+            },
+            {
+                "name": "data2",
+                "type": "f"
+            },
+            {
+                "name": "cmd_type",
+                "type": "B"
+            },
+            {
+                "name": "cmd_option",
+                "type": "B"
+            },
+            {
+                "name": "sequence_nr",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            }
+        ]
+    },
+    "1045": {
+        "name": "GroupedParams",
+        "fields": []
+    },
+    "788": {
+        "name": "HighControlState",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Sequence_Number",
+                "type": "B"
+            },
+            {
+                "name": "HighControlMode",
+                "type": "B"
+            },
+            {
+                "name": "Progress",
+                "type": "B"
+            },
+            {
+                "name": "FInteractionMode",
+                "type": "B"
+            }
+        ]
+    },
+    "849": {
+        "name": "HighControlStateRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Sequence_Number",
+                "type": "B"
+            },
+            {
+                "name": "HighControlMode",
+                "type": "B"
+            },
+            {
+                "name": "Progress",
+                "type": "B"
+            },
+            {
+                "name": "FInteractionMode",
+                "type": "B"
+            }
+        ]
+    },
+    "800": {
+        "name": "IMU_report0",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "I"
+            },
+            {
+                "name": "accel_x",
+                "type": "h"
+            },
+            {
+                "name": "accel_y",
+                "type": "h"
+            },
+            {
+                "name": "accel_z",
+                "type": "h"
+            },
+            {
+                "name": "gyro_x",
+                "type": "h"
+            },
+            {
+                "name": "gyro_y",
+                "type": "h"
+            },
+            {
+                "name": "gyro_z",
+                "type": "h"
+            }
+        ]
+    },
+    "801": {
+        "name": "IMU_report1",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "I"
+            },
+            {
+                "name": "accel_x",
+                "type": "h"
+            },
+            {
+                "name": "accel_y",
+                "type": "h"
+            },
+            {
+                "name": "accel_z",
+                "type": "h"
+            },
+            {
+                "name": "gyro_x",
+                "type": "h"
+            },
+            {
+                "name": "gyro_y",
+                "type": "h"
+            },
+            {
+                "name": "gyro_z",
+                "type": "h"
+            }
+        ]
+    },
+    "802": {
+        "name": "IMU_report2",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "I"
+            },
+            {
+                "name": "accel_x",
+                "type": "h"
+            },
+            {
+                "name": "accel_y",
+                "type": "h"
+            },
+            {
+                "name": "accel_z",
+                "type": "h"
+            },
+            {
+                "name": "gyro_x",
+                "type": "h"
+            },
+            {
+                "name": "gyro_y",
+                "type": "h"
+            },
+            {
+                "name": "gyro_z",
+                "type": "h"
+            }
+        ]
+    },
+    "1042": {
+        "name": "KiteInfo",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "data",
+                "type": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            },
+            {
+                "name": "type",
+                "type": "B"
+            },
+            {
+                "name": "size",
+                "type": "B"
+            },
+            {
+                "name": "seq_n",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBB"
+            }
+        ]
+    },
+    "773": {
+        "name": "OnboardLowLevelState",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Sequence_Number",
+                "type": "B"
+            },
+            {
+                "name": "Bus_Voltage",
+                "type": "f"
+            },
+            {
+                "name": "self_check_flags_upper",
+                "type": "I"
+            },
+            {
+                "name": "Tether_Voltage",
+                "type": "f"
+            },
+            {
+                "name": "Idle_time",
+                "type": "Q"
+            },
+            {
+                "name": "lowLevelMode",
+                "type": "B"
+            },
+            {
+                "name": "Onboard_Logic_Global_Flags",
+                "type": "H"
+            },
+            {
+                "name": "Low_battery_ctr",
+                "type": "H"
+            },
+            {
+                "name": "Power_Over_Tether_Working",
+                "type": "B"
+            },
+            {
+                "name": "ButtonState",
+                "type": "B"
+            },
+            {
+                "name": "Backup_Batt_Voltage",
+                "type": "f"
+            },
+            {
+                "name": "System_Lights_State",
+                "type": "B"
+            },
+            {
+                "name": "E_land_state",
+                "type": "B"
+            },
+            {
+                "name": "armed",
+                "type": "B"
+            },
+            {
+                "name": "tetherV_ok",
+                "type": "B"
+            },
+            {
+                "name": "time_on_battery",
+                "type": "I"
+            }
+        ]
+    },
+    "857": {
+        "name": "OnboardLowLevelStateFCR",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Sequence_Number",
+                "type": "B"
+            },
+            {
+                "name": "Bus_Voltage",
+                "type": "f"
+            },
+            {
+                "name": "self_check_flags_upper",
+                "type": "I"
+            },
+            {
+                "name": "Tether_Voltage",
+                "type": "f"
+            },
+            {
+                "name": "Idle_time",
+                "type": "Q"
+            },
+            {
+                "name": "lowLevelMode",
+                "type": "B"
+            },
+            {
+                "name": "Onboard_Logic_Global_Flags",
+                "type": "H"
+            },
+            {
+                "name": "Low_battery_ctr",
+                "type": "H"
+            },
+            {
+                "name": "Power_Over_Tether_Working",
+                "type": "B"
+            },
+            {
+                "name": "ButtonState",
+                "type": "B"
+            },
+            {
+                "name": "Backup_Batt_Voltage",
+                "type": "f"
+            },
+            {
+                "name": "System_Lights_State",
+                "type": "B"
+            },
+            {
+                "name": "E_land_state",
+                "type": "B"
+            },
+            {
+                "name": "armed",
+                "type": "B"
+            },
+            {
+                "name": "tetherV_ok",
+                "type": "B"
+            },
+            {
+                "name": "time_on_battery",
+                "type": "I"
+            }
+        ]
+    },
+    "786": {
+        "name": "OnboardPose",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Omega_x",
+                "type": "f"
+            },
+            {
+                "name": "Omega_y",
+                "type": "f"
+            },
+            {
+                "name": "Omega_z",
+                "type": "f"
+            },
+            {
+                "name": "Accel_x",
+                "type": "f"
+            },
+            {
+                "name": "Accel_y",
+                "type": "f"
+            },
+            {
+                "name": "Accel_z",
+                "type": "f"
+            },
+            {
+                "name": "vel_x",
+                "type": "f"
+            },
+            {
+                "name": "vel_y",
+                "type": "f"
+            },
+            {
+                "name": "vel_z",
+                "type": "f"
+            },
+            {
+                "name": "AccBias_x",
+                "type": "f"
+            },
+            {
+                "name": "AccBias_y",
+                "type": "f"
+            },
+            {
+                "name": "AccBias_z",
+                "type": "f"
+            },
+            {
+                "name": "pos_x",
+                "type": "f"
+            },
+            {
+                "name": "pos_y",
+                "type": "f"
+            },
+            {
+                "name": "pos_z",
+                "type": "f"
+            },
+            {
+                "name": "sensor_bitmap_validity",
+                "type": "H"
+            },
+            {
+                "name": "sensor_ok_bitmap",
+                "type": "H"
+            },
+            {
+                "name": "Attitude_w",
+                "type": "f"
+            },
+            {
+                "name": "Attitude_x",
+                "type": "f"
+            },
+            {
+                "name": "Attitude_y",
+                "type": "f"
+            },
+            {
+                "name": "Attitude_z",
+                "type": "f"
+            },
+            {
+                "name": "Height",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_xy",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_xy",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "mag_yaw",
+                "type": "f"
+            },
+            {
+                "name": "baro_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "baro_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "TetherLoss",
+                "type": "B"
+            },
+            {
+                "name": "state_ok",
+                "type": "B"
+            },
+            {
+                "name": "tether_pull",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBB"
+            }
+        ]
+    },
+    "793": {
+        "name": "OnboardPoseRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Omega_x",
+                "type": "f"
+            },
+            {
+                "name": "Omega_y",
+                "type": "f"
+            },
+            {
+                "name": "Omega_z",
+                "type": "f"
+            },
+            {
+                "name": "Accel_x",
+                "type": "f"
+            },
+            {
+                "name": "Accel_y",
+                "type": "f"
+            },
+            {
+                "name": "Accel_z",
+                "type": "f"
+            },
+            {
+                "name": "vel_x",
+                "type": "f"
+            },
+            {
+                "name": "vel_y",
+                "type": "f"
+            },
+            {
+                "name": "vel_z",
+                "type": "f"
+            },
+            {
+                "name": "AccBias_x",
+                "type": "f"
+            },
+            {
+                "name": "AccBias_y",
+                "type": "f"
+            },
+            {
+                "name": "AccBias_z",
+                "type": "f"
+            },
+            {
+                "name": "pos_x",
+                "type": "f"
+            },
+            {
+                "name": "pos_y",
+                "type": "f"
+            },
+            {
+                "name": "pos_z",
+                "type": "f"
+            },
+            {
+                "name": "sensor_bitmap_validity",
+                "type": "H"
+            },
+            {
+                "name": "sensor_ok_bitmap",
+                "type": "H"
+            },
+            {
+                "name": "Attitude_w",
+                "type": "f"
+            },
+            {
+                "name": "Attitude_x",
+                "type": "f"
+            },
+            {
+                "name": "Attitude_y",
+                "type": "f"
+            },
+            {
+                "name": "Attitude_z",
+                "type": "f"
+            },
+            {
+                "name": "Height",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_xy",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_xy",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "mag_yaw",
+                "type": "f"
+            },
+            {
+                "name": "baro_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "baro_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "TetherLoss",
+                "type": "B"
+            },
+            {
+                "name": "state_ok",
+                "type": "B"
+            },
+            {
+                "name": "tether_pull",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBB"
+            }
+        ]
+    },
+    "1030": {
+        "name": "OnboardState",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "body_acc_x",
+                "type": "f"
+            },
+            {
+                "name": "body_acc_y",
+                "type": "f"
+            },
+            {
+                "name": "body_acc_z",
+                "type": "f"
+            },
+            {
+                "name": "acc_x",
+                "type": "f"
+            },
+            {
+                "name": "acc_y",
+                "type": "f"
+            },
+            {
+                "name": "acc_z",
+                "type": "f"
+            },
+            {
+                "name": "vel_x",
+                "type": "f"
+            },
+            {
+                "name": "vel_y",
+                "type": "f"
+            },
+            {
+                "name": "vel_z",
+                "type": "f"
+            },
+            {
+                "name": "pos_x",
+                "type": "f"
+            },
+            {
+                "name": "pos_y",
+                "type": "f"
+            },
+            {
+                "name": "pos_z",
+                "type": "f"
+            },
+            {
+                "name": "omega_x",
+                "type": "f"
+            },
+            {
+                "name": "omega_y",
+                "type": "f"
+            },
+            {
+                "name": "omega_z",
+                "type": "f"
+            },
+            {
+                "name": "attitude_w",
+                "type": "f"
+            },
+            {
+                "name": "attitude_x",
+                "type": "f"
+            },
+            {
+                "name": "attitude_y",
+                "type": "f"
+            },
+            {
+                "name": "attitude_z",
+                "type": "f"
+            },
+            {
+                "name": "mag_yaw",
+                "type": "f"
+            },
+            {
+                "name": "gs_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "gs_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "gs_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_x",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_y",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "var_gs_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "var_gs_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "var_gs_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "opto_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "opto_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "opto_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "filt_alt",
+                "type": "f"
+            },
+            {
+                "name": "baro_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "baro_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "ext_acc_x",
+                "type": "f"
+            },
+            {
+                "name": "ext_acc_y",
+                "type": "f"
+            },
+            {
+                "name": "ext_acc_z",
+                "type": "f"
+            },
+            {
+                "name": "acc_bias_x",
+                "type": "f"
+            },
+            {
+                "name": "acc_bias_y",
+                "type": "f"
+            },
+            {
+                "name": "acc_bias_z",
+                "type": "f"
+            },
+            {
+                "name": "gyro_bias_x",
+                "type": "f"
+            },
+            {
+                "name": "gyro_bias_y",
+                "type": "f"
+            },
+            {
+                "name": "gyro_bias_z",
+                "type": "f"
+            },
+            {
+                "name": "gps_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "gps_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "empty_placeholder_1",
+                "type": "f"
+            },
+            {
+                "name": "empty_placeholder_2",
+                "type": "f"
+            },
+            {
+                "name": "empty_placeholder_3",
+                "type": "f"
+            },
+            {
+                "name": "tether_force_x",
+                "type": "f"
+            },
+            {
+                "name": "tether_force_y",
+                "type": "f"
+            },
+            {
+                "name": "tether_force_z",
+                "type": "f"
+            },
+            {
+                "name": "tether_len",
+                "type": "f"
+            },
+            {
+                "name": "tether_vel",
+                "type": "f"
+            },
+            {
+                "name": "tether_acc",
+                "type": "f"
+            },
+            {
+                "name": "interpolate_value",
+                "type": "f"
+            },
+            {
+                "name": "state_ok",
+                "type": "B"
+            },
+            {
+                "name": "baro_ok",
+                "type": "B"
+            },
+            {
+                "name": "gps_ok",
+                "type": "B"
+            },
+            {
+                "name": "tether_ok",
+                "type": "B"
+            },
+            {
+                "name": "optoforce_ok",
+                "type": "B"
+            },
+            {
+                "name": "tether_loss_candidate",
+                "type": "B"
+            },
+            {
+                "name": "acc_ok",
+                "type": "B"
+            },
+            {
+                "name": "mag_ok",
+                "type": "B"
+            },
+            {
+                "name": "fcr_pos_ok",
+                "type": "B"
+            },
+            {
+                "name": "fcr_vel_ok",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BB"
+            }
+        ]
+    },
+    "792": {
+        "name": "OnboardStateRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "body_acc_x",
+                "type": "f"
+            },
+            {
+                "name": "body_acc_y",
+                "type": "f"
+            },
+            {
+                "name": "body_acc_z",
+                "type": "f"
+            },
+            {
+                "name": "acc_x",
+                "type": "f"
+            },
+            {
+                "name": "acc_y",
+                "type": "f"
+            },
+            {
+                "name": "acc_z",
+                "type": "f"
+            },
+            {
+                "name": "vel_x",
+                "type": "f"
+            },
+            {
+                "name": "vel_y",
+                "type": "f"
+            },
+            {
+                "name": "vel_z",
+                "type": "f"
+            },
+            {
+                "name": "pos_x",
+                "type": "f"
+            },
+            {
+                "name": "pos_y",
+                "type": "f"
+            },
+            {
+                "name": "pos_z",
+                "type": "f"
+            },
+            {
+                "name": "omega_x",
+                "type": "f"
+            },
+            {
+                "name": "omega_y",
+                "type": "f"
+            },
+            {
+                "name": "omega_z",
+                "type": "f"
+            },
+            {
+                "name": "attitude_w",
+                "type": "f"
+            },
+            {
+                "name": "attitude_x",
+                "type": "f"
+            },
+            {
+                "name": "attitude_y",
+                "type": "f"
+            },
+            {
+                "name": "attitude_z",
+                "type": "f"
+            },
+            {
+                "name": "mag_yaw",
+                "type": "f"
+            },
+            {
+                "name": "gs_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "gs_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "gs_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "var_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_x",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_y",
+                "type": "f"
+            },
+            {
+                "name": "var_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "var_gs_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "var_gs_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "var_gs_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "var_acc_x",
+                "type": "f"
+            },
+            {
+                "name": "var_acc_y",
+                "type": "f"
+            },
+            {
+                "name": "var_acc_z",
+                "type": "f"
+            },
+            {
+                "name": "filt_alt",
+                "type": "f"
+            },
+            {
+                "name": "baro_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "baro_pos_z",
+                "type": "f"
+            },
+            {
+                "name": "ext_acc_x",
+                "type": "f"
+            },
+            {
+                "name": "ext_acc_y",
+                "type": "f"
+            },
+            {
+                "name": "ext_acc_z",
+                "type": "f"
+            },
+            {
+                "name": "acc_bias_x",
+                "type": "f"
+            },
+            {
+                "name": "acc_bias_y",
+                "type": "f"
+            },
+            {
+                "name": "acc_bias_z",
+                "type": "f"
+            },
+            {
+                "name": "gyro_bias_x",
+                "type": "f"
+            },
+            {
+                "name": "gyro_bias_y",
+                "type": "f"
+            },
+            {
+                "name": "gyro_bias_z",
+                "type": "f"
+            },
+            {
+                "name": "gps_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "gps_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "empty_placeholder_1",
+                "type": "f"
+            },
+            {
+                "name": "empty_placeholder_2",
+                "type": "f"
+            },
+            {
+                "name": "empty_placeholder_3",
+                "type": "f"
+            },
+            {
+                "name": "tether_force_x",
+                "type": "f"
+            },
+            {
+                "name": "tether_force_y",
+                "type": "f"
+            },
+            {
+                "name": "tether_force_z",
+                "type": "f"
+            },
+            {
+                "name": "tether_len",
+                "type": "f"
+            },
+            {
+                "name": "tether_vel",
+                "type": "f"
+            },
+            {
+                "name": "tether_acc",
+                "type": "f"
+            },
+            {
+                "name": "interpolate_value",
+                "type": "f"
+            },
+            {
+                "name": "state_ok",
+                "type": "B"
+            },
+            {
+                "name": "baro_ok",
+                "type": "B"
+            },
+            {
+                "name": "gps_ok",
+                "type": "B"
+            },
+            {
+                "name": "tether_ok",
+                "type": "B"
+            },
+            {
+                "name": "optoforce_ok",
+                "type": "B"
+            },
+            {
+                "name": "tether_loss_candidate",
+                "type": "B"
+            },
+            {
+                "name": "acc_ok",
+                "type": "B"
+            },
+            {
+                "name": "mag_ok",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "1057": {
+        "name": "OptoforceBoardSerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "3904": {
+        "name": "OptoforceCoreDump",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "805": {
+        "name": "OptoforceLogReport",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "G_BoardTimestamp",
+                "type": "Q"
+            },
+            {
+                "name": "S0",
+                "type": "H"
+            },
+            {
+                "name": "S1",
+                "type": "H"
+            },
+            {
+                "name": "S2",
+                "type": "H"
+            },
+            {
+                "name": "S3",
+                "type": "H"
+            },
+            {
+                "name": "fx",
+                "type": "f"
+            },
+            {
+                "name": "fy",
+                "type": "f"
+            },
+            {
+                "name": "fz",
+                "type": "f"
+            },
+            {
+                "name": "temp",
+                "type": "H"
+            },
+            {
+                "name": "temp_f",
+                "type": "H"
+            },
+            {
+                "name": "S0_ok",
+                "type": "B"
+            },
+            {
+                "name": "S1_ok",
+                "type": "B"
+            },
+            {
+                "name": "S2_ok",
+                "type": "B"
+            },
+            {
+                "name": "S3_ok",
+                "type": "B"
+            },
+            {
+                "name": "temp_ok",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "B"
+            },
+            {
+                "name": "nr_samples",
+                "type": "H"
+            }
+        ]
+    },
+    "1029": {
+        "name": "ParameterChange",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "old_value",
+                "type": "f"
+            },
+            {
+                "name": "new_value",
+                "type": "f"
+            },
+            {
+                "name": "param_id",
+                "type": "H"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBB"
+            }
+        ]
+    },
+    "1024": {
+        "name": "Params",
+        "fields": [
+            {
+                "name": "LIST",
+                "type": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            }
+        ]
+    },
+    "836": {
+        "name": "PowerStateCrit",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "v_bus_voltage",
+                "type": "f"
+            },
+            {
+                "name": "tether_voltage",
+                "type": "f"
+            },
+            {
+                "name": "time_on_batt",
+                "type": "I"
+            },
+            {
+                "name": "dcdc_valid",
+                "type": "B"
+            },
+            {
+                "name": "batt_valid",
+                "type": "B"
+            },
+            {
+                "name": "batt_enabled",
+                "type": "B"
+            },
+            {
+                "name": "vicor_fault",
+                "type": "B"
+            }
+        ]
+    },
+    "837": {
+        "name": "PowerStateNonCrit",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "dcdc_voltage",
+                "type": "f"
+            },
+            {
+                "name": "esc_bus_voltage",
+                "type": "f"
+            },
+            {
+                "name": "batt_voltage",
+                "type": "f"
+            },
+            {
+                "name": "cell_voltage0",
+                "type": "f"
+            },
+            {
+                "name": "cell_voltage1",
+                "type": "f"
+            },
+            {
+                "name": "cell_voltage2",
+                "type": "f"
+            },
+            {
+                "name": "cell_voltage3",
+                "type": "f"
+            },
+            {
+                "name": "cell_voltage4",
+                "type": "f"
+            },
+            {
+                "name": "cell_voltage5",
+                "type": "f"
+            },
+            {
+                "name": "dcdc_current",
+                "type": "f"
+            },
+            {
+                "name": "batt_current",
+                "type": "f"
+            },
+            {
+                "name": "fpot_temp_top",
+                "type": "h"
+            },
+            {
+                "name": "fpot_temp_bot",
+                "type": "h"
+            },
+            {
+                "name": "fpot_temp_int",
+                "type": "h"
+            },
+            {
+                "name": "fups_temp_int",
+                "type": "h"
+            },
+            {
+                "name": "fups_temp_batt",
+                "type": "h"
+            },
+            {
+                "name": "charging_state",
+                "type": "B"
+            },
+            {
+                "name": "batt_ovp",
+                "type": "B"
+            }
+        ]
+    },
+    "777": {
+        "name": "QuadMotorCommands",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "RawCommand",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBBB"
+            }
+        ]
+    },
+    "803": {
+        "name": "QuadMotorCommandsRedundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "RawCommand",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBBB"
+            }
+        ]
+    },
+    "790": {
+        "name": "QuadMotorFeedback",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            }
+        ]
+    },
+    "1049": {
+        "name": "RBBoardSerialNumber",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "820": {
+        "name": "RBInfo",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "n_roof_open",
+                "type": "I"
+            },
+            {
+                "name": "adc_12v_voltage",
+                "type": "f"
+            },
+            {
+                "name": "adc_5v4_voltage",
+                "type": "f"
+            },
+            {
+                "name": "adc_3v3_voltage",
+                "type": "f"
+            },
+            {
+                "name": "adc_1v2_voltage",
+                "type": "f"
+            },
+            {
+                "name": "adc_temp",
+                "type": "f"
+            },
+            {
+                "name": "adc_peripheral_current",
+                "type": "f"
+            },
+            {
+                "name": "adc_motor_current",
+                "type": "f"
+            },
+            {
+                "name": "position",
+                "type": "h"
+            },
+            {
+                "name": "position_cmd",
+                "type": "h"
+            },
+            {
+                "name": "motor_command",
+                "type": "h"
+            },
+            {
+                "name": "button_press",
+                "type": "H"
+            },
+            {
+                "name": "adc_temp2_dDegree",
+                "type": "H"
+            },
+            {
+                "name": "rtb_inputs",
+                "type": "B"
+            },
+            {
+                "name": "mode",
+                "type": "B"
+            },
+            {
+                "name": "motor_mode",
+                "type": "B"
+            },
+            {
+                "name": "motor_fault",
+                "type": "B"
+            },
+            {
+                "name": "peripheral_fault",
+                "type": "B"
+            },
+            {
+                "name": "io_fault",
+                "type": "B"
+            }
+        ]
+    },
+    "3888": {
+        "name": "RMCCoreDump",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "1048": {
+        "name": "RPCMonitor",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "RPC_counter",
+                "type": "I"
+            },
+            {
+                "name": "RPC_flags",
+                "type": "I"
+            }
+        ]
+    },
+    "787": {
+        "name": "RateCommand",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "OmegaDes_x",
+                "type": "f"
+            },
+            {
+                "name": "OmegaDes_y",
+                "type": "f"
+            },
+            {
+                "name": "OmegaDes_z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "VelZ_int",
+                "type": "f"
+            }
+        ]
+    },
+    "774": {
+        "name": "RemoteState",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "w",
+                "type": "f"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "button1",
+                "type": "B"
+            },
+            {
+                "name": "button2",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBB"
+            }
+        ]
+    },
+    "1058": {
+        "name": "RotatedAccelRB",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_raw",
+                "type": "f"
+            },
+            {
+                "name": "y_raw",
+                "type": "f"
+            },
+            {
+                "name": "z_raw",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "1028": {
+        "name": "StringInformation",
+        "fields": [
+            {
+                "name": "sequence_number",
+                "type": "B"
+            },
+            {
+                "name": "string_class",
+                "type": "B"
+            },
+            {
+                "name": "type",
+                "type": "B"
+            },
+            {
+                "name": "payload",
+                "type": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+            }
+        ]
+    },
+    "817": {
+        "name": "TetherStatus",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "position_cts",
+                "type": "q"
+            },
+            {
+                "name": "setpoint_cts",
+                "type": "q"
+            },
+            {
+                "name": "velocity_m_s",
+                "type": "f"
+            },
+            {
+                "name": "setpoint_vel_m_s",
+                "type": "f"
+            },
+            {
+                "name": "position_m",
+                "type": "f"
+            },
+            {
+                "name": "setpoint_pos_m",
+                "type": "f"
+            },
+            {
+                "name": "motor_force_N",
+                "type": "f"
+            },
+            {
+                "name": "flags",
+                "type": "H"
+            },
+            {
+                "name": "motor_command",
+                "type": "h"
+            }
+        ]
+    },
+    "1031": {
+        "name": "UnixTime",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "unix_time",
+                "type": "Q"
+            }
+        ]
+    },
+    "832": {
+        "name": "VehicleGlobalPosition",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "time_utc_usec",
+                "type": "Q"
+            },
+            {
+                "name": "lat",
+                "type": "d"
+            },
+            {
+                "name": "lon",
+                "type": "d"
+            },
+            {
+                "name": "delta_lat",
+                "type": "d"
+            },
+            {
+                "name": "delta_lat",
+                "type": "d"
+            },
+            {
+                "name": "alt",
+                "type": "f"
+            },
+            {
+                "name": "delta_alt",
+                "type": "f"
+            },
+            {
+                "name": "vel_n",
+                "type": "f"
+            },
+            {
+                "name": "vel_e",
+                "type": "f"
+            },
+            {
+                "name": "vel_d",
+                "type": "f"
+            },
+            {
+                "name": "yaw",
+                "type": "f"
+            },
+            {
+                "name": "eph",
+                "type": "f"
+            },
+            {
+                "name": "epv",
+                "type": "f"
+            },
+            {
+                "name": "terrain_alt",
+                "type": "f"
+            },
+            {
+                "name": "pressure_alt",
+                "type": "f"
+            },
+            {
+                "name": "lat_lon_reset_counter",
+                "type": "B"
+            },
+            {
+                "name": "alt_reset_counter",
+                "type": "B"
+            },
+            {
+                "name": "terrain_alt_valid",
+                "type": "B"
+            },
+            {
+                "name": "dead_reckoning",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "833": {
+        "name": "VehicleLocalPosition",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "ref_timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "ref_lat",
+                "type": "d"
+            },
+            {
+                "name": "ref_lon",
+                "type": "d"
+            },
+            {
+                "name": "surface_bottom_timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "delta_x",
+                "type": "f"
+            },
+            {
+                "name": "delta_y",
+                "type": "f"
+            },
+            {
+                "name": "delta_z",
+                "type": "f"
+            },
+            {
+                "name": "vx",
+                "type": "f"
+            },
+            {
+                "name": "vy",
+                "type": "f"
+            },
+            {
+                "name": "vz",
+                "type": "f"
+            },
+            {
+                "name": "delta_vx",
+                "type": "f"
+            },
+            {
+                "name": "delta_vy",
+                "type": "f"
+            },
+            {
+                "name": "delta_vz",
+                "type": "f"
+            },
+            {
+                "name": "yaw",
+                "type": "f"
+            },
+            {
+                "name": "ref_alt",
+                "type": "f"
+            },
+            {
+                "name": "dist_bottom",
+                "type": "f"
+            },
+            {
+                "name": "dist_bottom_rate",
+                "type": "f"
+            },
+            {
+                "name": "eph",
+                "type": "f"
+            },
+            {
+                "name": "epv",
+                "type": "f"
+            },
+            {
+                "name": "xy_valid",
+                "type": "B"
+            },
+            {
+                "name": "z_valid",
+                "type": "B"
+            },
+            {
+                "name": "v_xy_valid",
+                "type": "B"
+            },
+            {
+                "name": "v_z_valid",
+                "type": "B"
+            },
+            {
+                "name": "xy_reset_counter",
+                "type": "B"
+            },
+            {
+                "name": "z_reset_counter",
+                "type": "B"
+            },
+            {
+                "name": "vxy_reset_counter",
+                "type": "B"
+            },
+            {
+                "name": "vz_reset_counter",
+                "type": "B"
+            },
+            {
+                "name": "xy_global",
+                "type": "B"
+            },
+            {
+                "name": "z_global",
+                "type": "B"
+            },
+            {
+                "name": "dist_bottom_valid",
+                "type": "B"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBB"
+            }
+        ]
+    },
+    "1025": {
+        "name": "VersionInfo",
+        "fields": [
+            {
+                "name": "FILE_CONTENTS",
+                "type": "c"
+            }
+        ]
+    },
+    "660": {
+        "name": "acc_avg",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "769": {
+        "name": "accel_report",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "integral_dt",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "z_int",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "range_rad_s",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "temperature_raw",
+                "type": "h"
+            }
+        ]
+    },
+    "657": {
+        "name": "accel_report1",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "integral_dt",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "z_int",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "range_rad_s",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "temperature_raw",
+                "type": "h"
+            }
+        ]
+    },
+    "659": {
+        "name": "accel_report2",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "integral_dt",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "z_int",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "range_rad_s",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "temperature_raw",
+                "type": "h"
+            }
+        ]
+    },
+    "776": {
+        "name": "autopilot_command",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Seq_no",
+                "type": "H"
+            },
+            {
+                "name": "Mode",
+                "type": "B"
+            },
+            {
+                "name": "cmd_bits",
+                "type": "B"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "w",
+                "type": "f"
+            },
+            {
+                "name": "des_orbit",
+                "type": "f"
+            },
+            {
+                "name": "des_elevation",
+                "type": "f"
+            },
+            {
+                "name": "des_vel_x",
+                "type": "f"
+            },
+            {
+                "name": "des_vel_y",
+                "type": "f"
+            },
+            {
+                "name": "des_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "des_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "des_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "des_pos_z",
+                "type": "f"
+            }
+        ]
+    },
+    "850": {
+        "name": "autopilot_command_Redundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Seq_no",
+                "type": "H"
+            },
+            {
+                "name": "Mode",
+                "type": "B"
+            },
+            {
+                "name": "cmd_bits",
+                "type": "B"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "w",
+                "type": "f"
+            },
+            {
+                "name": "des_orbit",
+                "type": "f"
+            },
+            {
+                "name": "des_elevation",
+                "type": "f"
+            },
+            {
+                "name": "des_vel_x",
+                "type": "f"
+            },
+            {
+                "name": "des_vel_y",
+                "type": "f"
+            },
+            {
+                "name": "des_vel_z",
+                "type": "f"
+            },
+            {
+                "name": "des_pos_x",
+                "type": "f"
+            },
+            {
+                "name": "des_pos_y",
+                "type": "f"
+            },
+            {
+                "name": "des_pos_z",
+                "type": "f"
+            }
+        ]
+    },
+    "665": {
+        "name": "baro_report",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "Pressure",
+                "type": "f"
+            },
+            {
+                "name": "Altitude",
+                "type": "f"
+            },
+            {
+                "name": "Temperature",
+                "type": "f"
+            },
+            {
+                "name": "TRASH",
+                "type": "I"
+            }
+        ]
+    },
+    "806": {
+        "name": "baro_report_1",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "Pressure",
+                "type": "f"
+            },
+            {
+                "name": "Altitude",
+                "type": "f"
+            },
+            {
+                "name": "Temperature",
+                "type": "f"
+            },
+            {
+                "name": "TRASH",
+                "type": "I"
+            }
+        ]
+    },
+    "640": {
+        "name": "baro_report_redundant",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "Pressure",
+                "type": "f"
+            },
+            {
+                "name": "Altitude",
+                "type": "f"
+            },
+            {
+                "name": "Temperature",
+                "type": "f"
+            },
+            {
+                "name": "TRASH",
+                "type": "I"
+            }
+        ]
+    },
+    "661": {
+        "name": "gyro_avg",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBB"
+            }
+        ]
+    },
+    "768": {
+        "name": "gyro_report",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "integral_dt",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "z_int",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "range_rad_s",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "temperature_raw",
+                "type": "h"
+            }
+        ]
+    },
+    "656": {
+        "name": "gyro_report1",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "integral_dt",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "z_int",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "range_rad_s",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "temperature_raw",
+                "type": "h"
+            }
+        ]
+    },
+    "658": {
+        "name": "gyro_report2",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "integral_dt",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "x_int",
+                "type": "f"
+            },
+            {
+                "name": "y_int",
+                "type": "f"
+            },
+            {
+                "name": "z_int",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "range_rad_s",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "temperature_raw",
+                "type": "h"
+            }
+        ]
+    },
+    "784": {
+        "name": "loginfo",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Percentage_Buffer_Used",
+                "type": "f"
+            },
+            {
+                "name": "Written_to_File",
+                "type": "i"
+            },
+            {
+                "name": "File_Writing_Speed",
+                "type": "f"
+            },
+            {
+                "name": "Written_to_Buffer",
+                "type": "i"
+            },
+            {
+                "name": "Buffer_Writing_Speed",
+                "type": "f"
+            },
+            {
+                "name": "Num_Dropped_Messages",
+                "type": "i"
+            },
+            {
+                "name": "Overrun",
+                "type": "B"
+            },
+            {
+                "name": "LowControl_Dropped_Tick",
+                "type": "i"
+            },
+            {
+                "name": "LowControl_Dropped_Tick_Write",
+                "type": "i"
+            },
+            {
+                "name": "Free_SD_Space_MB",
+                "type": "i"
+            }
+        ]
+    },
+    "770": {
+        "name": "mag_report",
+        "fields": [
+            {
+                "name": "Timestamp",
+                "type": "Q"
+            },
+            {
+                "name": "Error_count",
+                "type": "Q"
+            },
+            {
+                "name": "x",
+                "type": "f"
+            },
+            {
+                "name": "y",
+                "type": "f"
+            },
+            {
+                "name": "z",
+                "type": "f"
+            },
+            {
+                "name": "range_ga",
+                "type": "f"
+            },
+            {
+                "name": "scaling",
+                "type": "f"
+            },
+            {
+                "name": "temperature",
+                "type": "f"
+            },
+            {
+                "name": "device_id",
+                "type": "I"
+            },
+            {
+                "name": "x_raw",
+                "type": "h"
+            },
+            {
+                "name": "y_raw",
+                "type": "h"
+            },
+            {
+                "name": "z_raw",
+                "type": "h"
+            },
+            {
+                "name": "TRASH",
+                "type": "BBBBBB"
+            }
+        ]
+    }
+}
