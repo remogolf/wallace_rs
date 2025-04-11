@@ -12,9 +12,8 @@ csv = "1.1"
 clap = "2.33"
 byteorder = "1.5"
 bzip2 = "0.4"
+thiserror = "1.0" # Add thiserror dependency
 
 [[bin]]
 name = "binary_analyzer"
 path = "src/bin/binary_analyzer.rs"
-
-
